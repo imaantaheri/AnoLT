@@ -18,5 +18,10 @@ Based on the given set of hyperparameters at the begining of the code, every pos
 
 Then, derived anomaly scores of each method need to be copied to the `score_to_metrics` folder (as it is for the AR method).
 `accuracy_extraction.py` need to be run, with `model = [model name]` at the begining, to get detailed and summary statistics of different metrics.
-Final results for each method are also uploaded. 
+
+Final results for each method are also uploaded. The list of tested hyperparameters in the paper can be found in the `data_to_score` code and the summary results. 
+
+Detailed results include accuracy metrics at every possible threshold level applied on anomaly scores.
+
+
 
