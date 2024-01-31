@@ -24,4 +24,4 @@ Final results for each method are also uploaded. The list of tested hyperparamet
 Detailed results include accuracy metrics at every possible threshold level applied on anomaly scores.
 
 
-
+There is also a file named `extra_tools.py` in some folders. There is no need to run it as it is only used in other scripts. 
