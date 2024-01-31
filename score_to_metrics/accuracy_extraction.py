@@ -8,7 +8,7 @@ from extra_tools import roll_window
 
 dir_list = os.listdir('data')
 
-model = 'vae'
+model = 'ar'
 
 metric_data = []
 
