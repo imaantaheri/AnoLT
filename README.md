@@ -5,5 +5,5 @@ This repository represents data and code for the paper "AnoLT: On the Applicabil
 
 ## Requirements
 
-TODS library need to be installed. ([Check here.](https://github.com/datamllab/tods). 
+TODS library need to be installed. ([Check here.](https://github.com/datamllab/tods)). 
 For the TODS library, Linux system with Python 3.7 may be required. 
