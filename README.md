@@ -22,7 +22,6 @@ For instance, the following part in the AR code can be used to adjust the hyperp
 ```
 #model hyper_parameters
 window_size = [3, 4, 5, 6, 7, 8, 9, 10, 12, 15]
-#window_size = [3, 4]
 step_size = [1]
 ```
 
