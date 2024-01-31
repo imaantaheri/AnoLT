@@ -10,4 +10,7 @@ For the TODS library, Linux system with Python 3.7 in a virtual envirement may b
 
 ## Instruction
 
-AnoLT dataset with ground truth labels are located in "data" folder.
+AnoLT dataset with ground truth labels are located in `data` folder. 
+
+To get performance metrics for each method, first, its related python code from `data_to_score` need to be executed. 
+
