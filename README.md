@@ -17,10 +17,13 @@ The code stores anomaly scores of the test set (last 30% samples in each locatio
 
 Based on the given set of hyperparameters at the begining of the code, every possible combination of them will be taken into account, and anomaly scores related to each combination will be stored in a `.txt` file per each location (Sample executed outputs for the AR method is uploaded for demonstration). 
 
-rFor instance, the following part in the AR code can be used to adjust the hyperparameters: 
+For instance, the following part in the AR code can be used to adjust the hyperparameters: 
 
 ```
-
+#model hyper_parameters
+window_size = [3, 4, 5, 6, 7, 8, 9, 10, 12, 15]
+#window_size = [3, 4]
+step_size = [1]
 ```
 
 Then, derived anomaly scores of each method need to be copied to the `score_to_metrics` folder (as it is for the AR method).
