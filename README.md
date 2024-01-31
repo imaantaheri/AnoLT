@@ -16,5 +16,7 @@ To get performance metrics for each method, first, its related python code from 
 The code stores anomaly scores of the test set (last 30% samples in each location) into a folder named `[method name]_results`.
 Based on the given set of hyperparameters at the begining of the code, every possible combination of them will be taken into account, and anomaly scores related to each combination will be stored in a `.txt` file per each location. (Sample executed outputs for the AR method is uploaded for demonstration). 
 
-Then, derived anomaly scores of each method need to be copied to the `score_to_metrics` folder (as it is for the AR method).  
+Then, derived anomaly scores of each method need to be copied to the `score_to_metrics` folder (as it is for the AR method).
+`accuracy_extraction.py` need to be run, with `model = [model name]` at the begining, to get detailed and summary statistics of different metrics.
+Final results for each method are also uploaded. 
 
