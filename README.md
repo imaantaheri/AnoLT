@@ -8,7 +8,7 @@ This repository represents data and code for the paper "AnoLT: On the Applicabil
 TODS library need to be installed ([Check here](https://github.com/datamllab/tods)). 
 For the TODS library, Linux system with Python 3.7 in a virtual envirement may be necessary. 
 
-## Instruction
+## Instructions
 
 AnoLT dataset with ground truth labels are located in `data` folder. Data of each site is stored in a seperate `.csv` file. Different columns are provided to represent date, time, volume count, and labels assigned by the inspectors. 
 
