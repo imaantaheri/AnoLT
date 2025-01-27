@@ -11,7 +11,7 @@ import heapq
 
 #model hyper_parameters
 n_neighbors = [3, 5, 7, 8, 9, 10]
-#method = ['ave', 'max', 'med', 'k']
+
 
 hyp_list = [n_neighbors]
 
