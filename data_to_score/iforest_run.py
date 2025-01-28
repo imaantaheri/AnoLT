@@ -11,7 +11,7 @@ import itertools
 
 #model hyper_parameters
 
-bootstrap = [True, False]
+bootstrap = [True, False] 
 #bootstrap = [False]
 behaviour = ['old', 'new']
 #behaviour = ['new']
