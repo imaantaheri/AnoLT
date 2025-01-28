@@ -10,7 +10,7 @@ import itertools
 
 
 #model hyper_parameters+
-
+ 
 neurons = [
             [3, [2, 1, 2]], [3, [2, 2, 2]],
             [4, [3, 2, 3]], [4, [3, 2, 1, 2, 3]],
