@@ -22,7 +22,7 @@ hyp_list = [n_neighbors, method, window_size]
 
 combinations = list(itertools.product(*hyp_list))
 
-
+ 
 dir_list = os.listdir('data')
 #dir_list = ['2421-E.csv']
 
