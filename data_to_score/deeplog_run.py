@@ -13,7 +13,7 @@ from multiprocessing import Pool, cpu_count
 #model hyper_parameters
 hidden_size = [32, 64]
 #hidden_size = [32]
-
+ 
 epochs= [20]
 dropout_rate = [0.1]
 window_size = [3,5,7,10]
