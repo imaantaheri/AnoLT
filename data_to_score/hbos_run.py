@@ -19,7 +19,7 @@ tol = [0.1, 0.2, 0.3, 0.5]
 
 window_size = [3, 4, 5, 7, 10]
 #window_size = [4]
-
+ 
 hyp_list = [n_bins, alpha, tol, window_size]
 
 combinations = list(itertools.product(*hyp_list))
