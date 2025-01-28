@@ -14,7 +14,7 @@ import itertools
 n_neighbors = [5, 7, 10, 15, 20]
 
 window_size = [3, 4, 5, 7, 10]
-
+ 
 
 hyp_list = [n_neighbors, window_size]
 combinations = list(itertools.product(*hyp_list))
