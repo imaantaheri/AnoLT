@@ -40,4 +40,5 @@ There is also a file named `extra_tools.py` in some folders. There is no need to
 ##
 Profile-based methods and Auto-RL codes can be executed directly for data to performance metrics.
 
+For STGAN, the code implementation from the original paper is used [Link](https://github.com/dleyan/STGAN/tree/main). 
 
